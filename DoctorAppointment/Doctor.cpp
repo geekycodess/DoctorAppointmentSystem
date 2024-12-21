@@ -2,6 +2,8 @@
 #include "Medicine.h"
 #include <list>
 #include <ctime>
+
+
 #pragma warning(disable : 4996) //_CRT_SECURE_NO_WARNINGS
 Doctor::Doctor() : Email("No Email"), Phone("00000000000000"), Person(0,"No Name", "No Name")
 {
